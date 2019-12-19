@@ -1,0 +1,45 @@
+
+#f-perfil{
+    opacity: 0.5;
+}
+
+.background{
+    background-color: black;
+    width: 100%;
+}
+
+.main {
+   margin-top: 0;
+    width: 70%;
+    margin-left: 350px!important;
+    background-color: brown;
+}
+.navbar-fixed{
+    z-index: 1000;
+}
+
+.sidenav-fixed{
+    margin-top: 50px;
+}
+
+
+@media only screen and (min-width: 993px){
+    .container{
+        width: 90%;
+}
+    
+    .main {
+    margin-top: 0;
+     width: 70%;
+     margin-left: 200px;
+     background-color: blue;
+ }
+}
+
+@media only screen and (max-width: 991px){
+    .main {
+        
+        width: 100%;
+        margin: 10px 10px;
+    }
+}
